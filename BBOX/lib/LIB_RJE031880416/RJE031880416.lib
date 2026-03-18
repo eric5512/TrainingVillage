@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RJE031880416
+#/18806756/1464003/2.50/8/2/Connector
+DEF RJE031880416 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "RJE031880416" 650 200 50 H V L CNN
+F2 "RJE031880416" 650 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/p-rje03-188-0416.pdf" 650 0 50 H I L CNN
+F4 "Modular Jacks - Single port, 8P8C, R/A, unshield, Tab down, without LED, without panel stop" 650 -100 50 H I L CNN "Description"
+F5 "12.78" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "Farnell Part Number"
+F7 "" 650 -400 50 H I L CNN "Farnell Price/Stock"
+F8 "Amphenol Communications Solutions" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RJE031880416" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

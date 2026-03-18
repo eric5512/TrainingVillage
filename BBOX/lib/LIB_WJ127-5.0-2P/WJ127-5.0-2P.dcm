@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WJ127-5.0-2P
+D Screw terminal P=5.0mm RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/1912251631_Ningbo-Kangnex-Elec-WJ127-5-0-2P_C3703.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SHT31-DIS-B2.5KS
+#/1129476/1464003/2.50/9/3/Integrated Circuit
+DEF SHT31-DIS-B2.5KS IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "SHT31-DIS-B2.5KS" 1250 200 50 H V L CNN
+F2 "SON50P250X250X100-9N-D" 1250 100 50 H I L CNN
+F3 "http://www.mouser.com/ds/2/682/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital-971521.pdf" 1250 0 50 H I L CNN
+F4 "SHT31-DIS-B2.5KS" 1250 -100 50 H I L CNN "Description"
+F5 "1" 1250 -200 50 H I L CNN "Height"
+F6 "Sensirion" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SHT31-DIS-B2.5KS" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "403-SHT31-DIS-B" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT31-DIS-B2.5kS?qs=y6ZabgHbY%252ByCkzTLGvP3Qw%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SHT31-DIS-B2.5KS" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sht31-dis-b2.5ks/sensirion-ag?utm_currency=USD&region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SDA 1 0 0 200 R 50 50 0 0 P
+X ADDR 2 0 -100 200 R 50 50 0 0 P
+X ALERT 3 0 -200 200 R 50 50 0 0 P
+X SCL 4 0 -300 200 R 50 50 0 0 P
+X EP 9 700 -800 200 U 50 50 0 0 P
+X VSS 8 1400 0 200 L 50 50 0 0 P
+X R 7 1400 -100 200 L 50 50 0 0 P
+X NRESET 6 1400 -200 200 L 50 50 0 0 P
+X VDD 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

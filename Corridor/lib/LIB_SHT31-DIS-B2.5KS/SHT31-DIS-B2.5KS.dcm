@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SHT31-DIS-B2.5KS
+D SHT31-DIS-B2.5KS
+K
+F http://www.mouser.com/ds/2/682/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital-971521.pdf
+$ENDCMP
+#
+#End Doc Library
