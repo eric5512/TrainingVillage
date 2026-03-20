@@ -8,4 +8,5 @@
   (lib (name "AD8293G80ARJZ-R7")(type "KiCad")(uri "${KIPRJMOD}/ul_AD8293G80ARJZ-R7/2025-05-28_22-05-54.kicad_sym")(options "")(descr ""))
   (lib (name "RJE031880416")(type "KiCad")(uri "${KIPRJMOD}/LIB_RJE031880416/RJE031880416.kicad_sym")(options "")(descr ""))
   (lib (name "RJ45R08P-A004")(type "KiCad")(uri "${KIPRJMOD}/LIB_RJ45R08P-A004/RJ45R08P-A004.kicad_sym")(options "")(descr ""))
+  (lib (name "05200101Z")(type "KiCad")(uri "${KIPRJMOD}/LIB_05200101Z/05200101Z.kicad_sym")(options "")(descr ""))
 )

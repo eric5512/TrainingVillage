@@ -10,6 +10,193 @@
 		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "05200101Z:05200101Z"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "05200101Z"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "05200101Z"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_520_datasheet.pdf.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse Block 10 A 600V 1 Circuit Cartridge Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.7"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "05200101Z"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-05200101Z"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/05200101Z?qs=gu7KAQ731URy7T5v0X5a9A%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "05200101Z"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/05200101z/littelfuse?utm_currency=USD&region=europe"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "05200101Z_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CONN_HEADER:2223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2030,6 +2217,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 41.91) (xy 142.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7f4e11-8198-4a00-b385-9d9e7ef58f01")
+	)
+	(wire
+		(pts
 			(xy 121.92 33.02) (xy 121.92 35.56)
 		)
 		(stroke
@@ -2040,13 +2237,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 34.29) (xy 182.88 33.02)
+			(xy 160.02 41.91) (xy 160.02 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f45d0f3-3970-4006-9457-3fd5fef19039")
+		(uuid "6640343f-0a97-4b74-8881-74fd8b680c78")
 	)
 	(wire
 		(pts
@@ -2057,16 +2254,6 @@
 			(type default)
 		)
 		(uuid "689ba496-8d78-47e4-88f6-1616093ab493")
-	)
-	(wire
-		(pts
-			(xy 182.88 34.29) (xy 184.15 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "728337af-8879-4073-9f8b-43a85d396126")
 	)
 	(wire
 		(pts
@@ -2090,23 +2277,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 33.02) (xy 181.61 33.02)
+			(xy 181.61 50.8) (xy 181.61 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1c418cd-9e6e-492a-9636-b3deefc2de22")
-	)
-	(wire
-		(pts
-			(xy 142.24 40.64) (xy 142.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50c6dae-6146-4f6d-be2f-d982e3a025cc")
+		(uuid "bd5a9cf9-27f2-415f-be90-2d8b563fad33")
 	)
 	(wire
 		(pts
@@ -2851,6 +3028,148 @@
 		)
 	)
 	(symbol
+		(lib_id "05200101Z:05200101Z")
+		(at 181.61 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2701efc7-b01e-4c02-a099-969527e9c834")
+		(property "Reference" "F2"
+			(at 184.15 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "05200101Z"
+			(at 184.15 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "05200101Z"
+			(at 85.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_520_datasheet.pdf.pdf"
+			(at -14.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse Block 10 A 600V 1 Circuit Cartridge Through Hole"
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.7"
+			(at -214.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -314.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "05200101Z"
+			(at -414.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-05200101Z"
+			(at -514.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/05200101Z?qs=gu7KAQ731URy7T5v0X5a9A%3D%3D"
+			(at -614.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "05200101Z"
+			(at -714.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/05200101z/littelfuse?utm_currency=USD&region=europe"
+			(at -814.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4fe65b9-3d6d-4e75-b11f-08d5c2a846ff")
+		)
+		(pin "1"
+			(uuid "99cda3ad-8e18-45c5-8b39-94ab4070aa8f")
+		)
+		(instances
+			(project "RPiShield"
+				(path "/41851135-d896-4ae7-90ab-2ebb7b286afc"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CONN_HEADER:2223")
 		(at 76.2 29.21 0)
 		(unit 1)
@@ -3153,6 +3472,146 @@
 		)
 	)
 	(symbol
+		(lib_id "05200101Z:05200101Z")
+		(at 142.24 41.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "476619e5-46c7-40ff-a929-86ed3ea16138")
+		(property "Reference" "F1"
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "05200101Z"
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "05200101Z"
+			(at 156.21 -54.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_520_datasheet.pdf.pdf"
+			(at 156.21 -154.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse Block 10 A 600V 1 Circuit Cartridge Through Hole"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.7"
+			(at 156.21 -354.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 156.21 -454.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "05200101Z"
+			(at 156.21 -554.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-05200101Z"
+			(at 156.21 -654.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/05200101Z?qs=gu7KAQ731URy7T5v0X5a9A%3D%3D"
+			(at 156.21 -754.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "05200101Z"
+			(at 156.21 -854.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/05200101z/littelfuse?utm_currency=USD&region=europe"
+			(at 156.21 -954.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4fe65b9-3d6d-4e75-b11f-08d5c2a846ff")
+		)
+		(pin "1"
+			(uuid "99cda3ad-8e18-45c5-8b39-94ab4070aa8f")
+		)
+		(instances
+			(project "RPiShield"
+				(path "/41851135-d896-4ae7-90ab-2ebb7b286afc"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 99.06 29.21 0)
 		(mirror y)
@@ -3353,7 +3812,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 184.15 34.29 270)
+		(at 181.61 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3362,7 +3821,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fab5de1-8164-429f-a9a0-5fb8be0dd7b3")
 		(property "Reference" "#PWR012"
-			(at 181.61 34.29 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3830,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 190.5 34.2899 90)
+			(at 187.96 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 34.29 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 34.29 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 184.15 34.29 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +4001,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 142.24 43.18 270)
+		(at 160.02 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3551,7 +4010,7 @@
 		(fields_autoplaced yes)
 		(uuid "72bf2884-7ac9-4844-a05e-d53828c8bd43")
 		(property "Reference" "#PWR014"
-			(at 139.7 43.18 0)
+			(at 160.02 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,16 +4019,16 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 148.59 43.1799 90)
+			(at 163.83 48.3234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 43.18 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +4037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 43.18 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +4046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 142.24 43.18 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
