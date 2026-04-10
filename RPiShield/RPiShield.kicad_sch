@@ -2049,10 +2049,10 @@
 		)
 		(uuid "c91afb47-bd31-42f9-b3fa-6ca570ca8d4e")
 	)
-	(text_box "The raspberry pi pin mapping for this application is the following one:\nGPIO	Pin #	Special function	Device\nGPIO14 	8		(PWM0)				Servo 1\nGPIO13 	33		(PWM0)				Servo 2\nGPIO12 	32		(PWM0)				Servo 3\nGPIO15 	10		(RXD0)				RFID\nGPIO25	22		(none)				Scale(RDY)\nGPIO3	5		(SCL1)				Scale(SCK)\nGPIO2	3		(SDA1)				Scale(SDA)\nGPIO2 	3		(SDA1)				SH31\nGPIO3 	5		(SCL1)				SH31\n"
+	(text_box "The raspberry pi pin mapping for this application is the following one:\nGPIO	Pin #	Special function	Device\nGPIO15 	10		(RXD0)				RFID\nGPIO3	5		(SCL1)				SCK\nGPIO2	3		(SDA1)				SDA\nGPIO10	19		(MOSI)				LED\n"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
-		(size 53.34 25.4)
+		(size 53.34 15.24)
 		(margins 0.8573 0.8573 0.8573 0.8573)
 		(stroke
 			(width 0)
@@ -3597,10 +3597,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f4fe65b9-3d6d-4e75-b11f-08d5c2a846ff")
+			(uuid "f4fe65b9-3d6d-4e75-b11f-08d5c2a84700")
 		)
 		(pin "1"
-			(uuid "99cda3ad-8e18-45c5-8b39-94ab4070aa8f")
+			(uuid "99cda3ad-8e18-45c5-8b39-94ab4070aa90")
 		)
 		(instances
 			(project "RPiShield"
