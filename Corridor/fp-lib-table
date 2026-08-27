@@ -1,7 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "RJE031880416")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_RJE031880416")(options "")(descr ""))
-  (lib (name "FC68148")(type "KiCad")(uri "${KIPRJMOD}/LIB_FC68148/FC68148.pretty")(options "1")(descr "FC68148"))
   (lib (name "CONN_HEADER")(type "KiCad")(uri "${KIPRJMOD}/LIB_2223")(options "1")(descr "CONN_HEADER"))
   (lib (name "ADS1114")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_ADS1114IDGST/footprints.pretty")(options "1")(descr "ADS1114"))
   (lib (name "AP2210N33TRG1")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_AP2210N-3-3TRG1/footprints.pretty")(options "1")(descr "AP2210N33TRG1"))
@@ -14,4 +13,5 @@
   (lib (name "SHT31")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_SHT31-DIS-B2.5KS")(options "")(descr ""))
   (lib (name "WJ127-5.0-2P")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_WJ127-5.0-2P")(options "")(descr ""))
   (lib (name "IRLML2502PBF")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_IRLML2502PBF")(options "")(descr ""))
+  (lib (name "FC68148")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_FC68148/FC68148.pretty")(options "")(descr ""))
 )

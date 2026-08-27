@@ -6,4 +6,8 @@
   (lib (name "WJ127-5.0-2P")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_WJ127-5.0-2P")(options "")(descr ""))
   (lib (name "IRLML2502PBF")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_IRLML2502PBF")(options "")(descr ""))
   (lib (name "AP2210N-3-3TRG1")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_AP2210N-3-3TRG1/footprints.pretty")(options "")(descr ""))
+  (lib (name "FC68148")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_FC68148/FC68148.pretty")(options "")(descr ""))
+  (lib (name "ADS1114IDGST")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_ADS1114IDGST/footprints.pretty")(options "")(descr ""))
+  (lib (name "AD8293G80ARJZ-R7")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_AD8293G80ARJZ-R7/footprints.pretty")(options "")(descr ""))
+  (lib (name "JL308-25404G01")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_JL308-25404G01/JL308-25404G01.pretty")(options "")(descr ""))
 )
